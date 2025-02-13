@@ -1,7 +1,7 @@
 # LSTM
 
 <p align="center">
-  <img src="LSTM.jpg" alt="LSTM">
+  <img src="images/LSTM.jpg" alt="LSTM">
 </p>
 
 LSTMs have been around since the 2000s. However, it was after watching an Ilya Sutskever talk that I decided to write something and put it to the test. In this talk, he mentioned that this architecture was ancient history. When I heard this, I thought, "I have to create a small project that includes LSTMs." I know that we have many applications for them, like time series and text generation. Using LSTMs for text generation is outdated, but I prefer working with text rather than time series.
@@ -10,7 +10,7 @@ However, I did something that I took too long to do: Understand more about how G
 <br>
 <br>
 <p align="center">
-  <img src="first_lstm.png" alt="LSTM">
+  <img src="images/first_lstm.png" alt="LSTM">
   <br>
   <em>Result 1</em>
 </p>
@@ -24,7 +24,7 @@ Looking at the image (notebook first_lstm), we can see that training took ≃ 73
 
 <br>
 <p align="center">
-  <img src="lstm_improved.png" alt="LSTM">
+  <img src="images/lstm_improved.png" alt="LSTM">
   <br>
   <em>Mixed precision result</em>
 </p>
@@ -35,7 +35,7 @@ In the notebook **lstm_ampere_gpu**, I rented an A100 GPU. Just by running the s
 
 <br>
 <p align="center">
-  <img src="lstm_ampere.png" alt="LSTM">
+  <img src="images/lstm_ampere.png" alt="LSTM">
   <br>
   <em>Ampere GPU result</em>
 </p>
